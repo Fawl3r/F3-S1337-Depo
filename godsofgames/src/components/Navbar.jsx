@@ -103,7 +103,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     className="cursor-pointer transition duration-500 ease-in-out  hover:text-blue-400 "
-                    href="https://live-raffle.vercel.app/"
+                    href="https://f3-liveraffle.vercel.app/"
                     target="_blank"
                   >
                     Raffle Machine #1
@@ -120,10 +120,12 @@ const Navbar = () => {
             )}
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Link
-              href="#white"
-              className="transition duration-500 ease-in-out  hover:text-blue-400"
-            >
+          <Link
+    href="https://gods-of-gaming.gitbook.io/gods-of-gaming-whitepaper/"
+    target="_blank"  // Add this if you want the link to open in a new tab
+    className="transition duration-500 ease-in-out hover:text-blue-400"
+  >
+              
               Whitepaper
             </Link>
           </motion.div>

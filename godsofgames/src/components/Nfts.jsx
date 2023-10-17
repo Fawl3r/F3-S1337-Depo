@@ -4,35 +4,35 @@ const NFTGrid = () => {
   const nfts = [
     {
       index: 1,
-      imageUrl: "/images/img1.png",
+      imageUrl: "/images/1.gif",
     },
     {
       index: 2,
-      imageUrl: "/images/img2.png",
+      imageUrl: "/images/2.png",
     },
     {
       index: 3,
-      imageUrl: "/images/img3.png",
+      imageUrl: "/images/3.gif",
     },
     {
       index: 4,
-      imageUrl: "/images/img4.png",
+      imageUrl: "/images/4.gif",
     },
     {
       index: 5,
-      imageUrl: "/images/img5.png",
+      imageUrl: "/images/5.png",
     },
     {
       index: 6,
-      imageUrl: "/images/img6.png",
+      imageUrl: "/images/6.png",
     },
     {
       index: 7,
-      imageUrl: "/images/img7.png",
+      imageUrl: "/images/7.png",
     },
     {
       index: 8,
-      imageUrl: "/images/img8.png",
+      imageUrl: "/images/8.png",
     },
   ];
 

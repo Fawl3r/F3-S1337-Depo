@@ -58,7 +58,7 @@ const ResponsiveGridComponent = () => {
                 className="text-white  bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium text-sm  md:text-lg  px-7 py-3 text-center mr-2 mb-2 mt-10 transition duration-500 ease-in-out"
                 variants={buttonVariants}
               >
-                <Link href="/F3Dominion">explore F3Dominion</Link>
+                <Link href="/F3Dominion">Explore F3 Dominion</Link>
               </motion.button>
             </div>
           </motion.div>
@@ -68,7 +68,7 @@ const ResponsiveGridComponent = () => {
               style={{ paddingBottom: "100%" }}
             >
               <img
-                src="/dom.png"
+                src="/dom.gif"
                 alt="nft"
                 className="absolute inset-0 w-full h-full object-cover rounded-md hover:shadow-lg"
               />
