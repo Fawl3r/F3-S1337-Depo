@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,6 +23,7 @@ const Navbar = () => {
   const handleMouseLeave = () => {
     setIsDropdownOpen(false);
   };
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768) {
@@ -37,6 +37,7 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   return (
     <motion.nav
       initial={{ opacity: 0, y: -30 }}
@@ -115,17 +116,23 @@ const Navbar = () => {
                   >
                     Raffle Machine #2
                   </Link>
+                  <Link
+                    className="cursor-pointer transition duration-500 ease-in-out  hover:text-blue-400"
+                    href="https://f3-packs.vercel.app/"
+                    target="_blank"
+                  >
+                    F3 Packs
+                  </Link>
                 </div>
               </div>
             )}
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          <Link
-    href="https://gods-of-gaming.gitbook.io/gods-of-gaming-whitepaper/"
-    target="_blank"  // Add this if you want the link to open in a new tab
-    className="transition duration-500 ease-in-out hover:text-blue-400"
-  >
-              
+            <Link
+              href="https://gods-of-gaming.gitbook.io/gods-of-gaming-whitepaper/"
+              target="_blank"  // Add this if you want the link to open in a new tab
+              className="transition duration-500 ease-in-out hover:text-blue-400"
+            >
               Whitepaper
             </Link>
           </motion.div>
@@ -204,6 +211,9 @@ const Navbar = () => {
               </Link>
               <Link href="#F3" className="text-2xl">
                 F3 Dominion
+              </Link>
+              <Link href="https://f3-packs.vercel.app/" className="text-2xl">
+                F3 Packs
               </Link>
               <Link href="#white" className="text-2xl">
                 Whitepaper
