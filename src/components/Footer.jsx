@@ -7,7 +7,7 @@ const Footer = () => {
     <div className=" bg-gray-800 w-full py-5">
       <div className="flex flex-col items-center justify-center">
         <p className="mb-4 text-white">
-          &copy; {new Date().getFullYear()} Gods Of Gaming. All rights reserved
+          &copy; {new Date().getFullYear()} Gods Of Gaming. All rights reserved.
         </p>
         <div className="flex flex-row space-x-4">
           <Link href="https://www.youtube.com/@Fawl3r" target="_blank">
