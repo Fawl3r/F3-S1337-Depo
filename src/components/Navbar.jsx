@@ -179,7 +179,7 @@ const Navbar = () => {
               duration: 1,
             }}
           >
-            <Link href="https://discord.com/invite/67ZVXVQSfX" target="_blank">
+            <Link href="none" target="_blank">
               <FaDiscord
                 className="cursor-pointer transition duration-700 ease-in-out hover:text-blue-500"
                 size={30}
